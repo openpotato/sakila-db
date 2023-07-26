@@ -6,8 +6,8 @@ The [Sakila sample database](https://dev.mysql.com/doc/sakila/en/sakila-introduc
 
 This repository stores the original MySQL database and ports to the following SQL databases:
 
-+ [Firebird 4+](https://www.postgresql.org/)
-+ [PostgreSQL 14+](https://firebirdsql.org/)
++ [Firebird 4+](https://firebirdsql.org/)
++ [PostgreSQL 14+](https://www.postgresql.org/)
 
 ## Installation
 
