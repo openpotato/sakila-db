@@ -1,5 +1,5 @@
 -- Sakila Sample Database Schema
--- Version 1.4
+-- Version 1.5
 
 -- Copyright (c) 2006, 2023, Oracle and/or its affiliates.
 
@@ -197,7 +197,7 @@ SET @@default_storage_engine = 'MyISAM';
 /*!50610 SET @@default_storage_engine = 'InnoDB'*/;
 
 CREATE TABLE film_text (
-  film_id SMALLINT NOT NULL,
+  film_id SMALLINT UNSIGNED NOT NULL,
   title VARCHAR(255) NOT NULL,
   description TEXT,
   PRIMARY KEY  (film_id),
@@ -682,3 +682,5 @@ DELIMITER ;
 SET SQL_MODE=@OLD_SQL_MODE;
 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS;
 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;
+
+
