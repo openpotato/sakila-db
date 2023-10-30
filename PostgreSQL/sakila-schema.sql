@@ -1,4 +1,6 @@
 -- Sakila Sample Database Schema
+-- Version 1.5
+
 -- PostgreSQL port of sakila-schema.sql from MySQL
 
 SET client_encoding = 'UTF8';
