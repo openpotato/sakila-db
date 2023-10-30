@@ -1,4 +1,6 @@
 -- Sakila Sample Database Schema
+-- Version 1.5
+
 -- Firebird port of sakila-schema.sql from MySQL
 
 -- NOTE: Firebird does not support schemas
