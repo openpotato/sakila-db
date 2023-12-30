@@ -560,7 +560,7 @@ SELECT
   a.phone AS phone,
   city.city AS city,
   country.country AS country,
-  case when cu.active=1 then 'active' else '' end AS notes,
+  case when cu.active=true then 'active' else '' end AS notes,
   cu.store_id AS SID
 FROM 
   customer AS cu 
